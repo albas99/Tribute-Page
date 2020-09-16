@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    background: rgb(60, 211, 14);
+}
+
+#title{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#title h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#title p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+#img-div{
+    background: white;
+    max-width: 99%;
+    margin: 0 .5rem;
+    text-align: center;
+}
+
+#img-div img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+#img-caption{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+}
+
+#tribute-info{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#tribute-info h2{
+    text-align: center;
+    margin: 1rem;
+    font-family: fantasy;
+    font-size: 1.6rem;
+}
+
+#brief{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#brief li{
+    margin-bottom: 1rem;
+    line-height: 1.7rem;
+    font-family: fantasy;
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 750px) {
+    #title {
+        width: 90%;
+    }
+
+    #title h1{
+        font-size: 2.6rem;
+    }
+
+
+    #img-div img{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #img-caption{
+        text-align: center;
+    }
+
+    #tribute-info{
+        width: 90%;
+    }
+
+    #brief{
+        width: 80%;
+    }
+
+    #brief li{
+        font-size: 1rem;
+    }
+
+    #tribute-info h2 {
+        font-size: 1.2rem;
+    }
+}
